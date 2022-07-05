@@ -1,0 +1,30 @@
+{
+  "name": "create-app",
+  "version": "1.0.0",
+  "description": "Create modern Haluka-powered app",
+  "main": "index.js",
+  "bin": {
+    "create-app": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haluker/create-app.git"
+  },
+  "keywords": [
+    "haluka",
+    "haluka.js"
+  ],
+  "author": "Haluka Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.22.0"
+  },
+  "devDependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^9.3.0",
+    "cpy": "^7.3.0",
+    "cross-spawn": "^7.0.3",
+    "prompts": "^2.4.2",
+    "validate-npm-package-name": "^4.0.0"
+  }
+}
